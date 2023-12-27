@@ -1,0 +1,585 @@
+@import url('https://assets.nflxext.com/ffe/siteui/fonts/graphik/v2/GraphikTH-Bold.woff2) format("woff2"),url(https://assets.nflxext.com/ffe/siteui/fonts/graphik/v2/GraphikTH-Bold.woff');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+.main {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url('https://assets.nflxext.com/ffe/siteui/vlv3/ca6a7616-0acb-4bc5-be25-c4deef0419a7/c5af601a-6657-4531-8f82-22e629a3795e/IN-en-20231211-popsignuptwoweeks-perspective_alpha_website_medium.jpg');
+    height: 720px;
+}
+
+.navbar img {
+    width: 250px;
+    margin-top: 5px;
+    margin-left: 100px;
+}
+
+#lang {
+    width: 150px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    float: right;
+    margin-top: 28px;
+    margin-right: 333px;
+}
+
+#lang option {
+    color: black;
+}
+
+#lang:hover {
+    cursor: pointer;
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    background-color: #e42a33;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    float: right;
+    margin-top: 28px;
+    margin-right: -282px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #c11119;
+}
+
+.heading {
+    color: white;
+}
+
+.heading h1 {
+    font-size: 3em;
+    padding: 0px 200px;
+    text-align: center;
+    margin-top: 150px;
+    font-weight: 900;
+}
+
+.heading h3 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: normal;
+}
+
+.heading p {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#email {
+    width: 350px;
+    height: 60px;
+    border-radius: 6px;
+    color: white;
+    font-size: 15px;
+    background-color: transparent;
+    margin-left: 365px;
+    margin-top: 20px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+#btn2 {
+    width: 230px;
+    height: 60px;
+    border: none;
+    border-radius: 6px;
+    background-color: #b90912;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 30px;
+    top: 5px;
+    position: relative;
+}
+
+#btn2 i {
+    font-size: 25px;
+    padding: 10px;
+}
+
+#btn2:hover {
+    background-color: #77090e;
+}
+
+.tv {
+    display: flex;
+    background: black;
+    color: white;
+    height: 580px;
+}
+
+.left h1 {
+    font-size: 3em;
+    /* padding: 110px 0px 0px 100px; */
+    margin: 150px 0px 0px 100px;
+    text-align: left;
+    font-weight: 900;
+
+}
+
+.left p {
+    font-size: 30px;
+    padding: 50px 30px 0px 100px;
+}
+
+.right img {
+    position: relative;
+    right: 100px;
+    z-index: 10;
+
+
+}
+
+.right video {
+    position: absolute;
+    top: 830px;
+    right: 192px;
+    width: 460px;
+}
+
+.phone {
+    display: flex;
+    background-color: black;
+    color: white;
+}
+
+.left1 img {
+    margin: 100px 0px 0px 100px;
+}
+
+.icon3 img {
+    position: relative;
+    bottom: 62px;
+    left: 257px;
+}
+
+.box1 {
+    border: 3px solid #5a5a5a;
+    width: 350px;
+    height: 130px;
+    margin-left: 244px;
+    position: relative;
+    border-radius: 8px;
+    padding: 10px;
+    bottom: 170px;
+    background-color: black;
+}
+
+.box1 h1 {
+    color: white;
+    font-size: 20px;
+    margin-left: 110px;
+    margin-top: -80px;
+
+}
+
+.box1 p {
+    color: #0071eb;
+    font-size: 20px;
+    margin-left: 110px;
+}
+
+.box1 img {
+    width: 75px;
+    /* position: absolute; */
+    margin-top: 0px;
+    margin-left: 3px;
+}
+
+.right1 h1 {
+    font-size: 3em;
+    padding: 190px 160px 0px 0px;
+    font-weight: 900;
+
+}
+
+.right1 p {
+    font-size: 30px;
+    padding: 50px 160px 0px 0px;
+}
+
+.movie2 {
+    display: flex;
+    background-color: black;
+    color: white;
+    margin-bottom: -70px;
+}
+
+.para h1 {
+    font-size: 3em;
+    padding: 150px 0px 0px 80px;
+    font-weight: 900;
+
+}
+
+.para p {
+    font-size: 30px;
+    padding: 20px 0px 0px 80px;
+}
+
+.laptop img {
+    position: relative;
+    right: 50px;
+    z-index: 20;
+    top: 100px;
+
+}
+
+.laptop video {
+    position: relative;
+    bottom: 350px;
+    left: 60px;
+    width: 400px;
+}
+
+.kids {
+    background-color: black;
+    display: flex;
+}
+
+.kids h1 {
+    color: white;
+    font-size: 3em;
+    padding: 72px 240px 0px 0px;
+    font-weight: 900;
+
+}
+
+.kids p {
+    color: white;
+    font-size: 30px;
+    padding-right: 215px;
+    padding-top: 40px;
+}
+
+.details {
+    background-color: black;
+    padding: 40px;
+    color: white;
+}
+
+.details h1 {
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    padding: 10px;
+    font-weight: 900;
+
+}
+
+.box5 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    max-width: 75vw;
+    padding: 30px;
+    margin: 10px auto;
+    font-size: 25px;
+    transition: all ease-in 1s;
+}
+
+.box5:hover {
+    background-color: #414141;
+}
+
+.rr {
+    background-color: black;
+}
+
+.rr p {
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+#email1 {
+    width: 350px;
+    height: 60px;
+    border-radius: 6px;
+    color: white;
+    font-size: 15px;
+    background-color: transparent;
+    /* margin-left: 365px; */
+    /* margin-top: 20px; */
+    margin: 20px 0px 60px 365px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+#btn3 {
+    width: 230px;
+    height: 60px;
+    border: none;
+    border-radius: 6px;
+    background-color: #b90912;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 30px;
+    top: 5px;
+    position: relative;
+}
+
+#btn3 i {
+    font-size: 25px;
+    padding: 10px;
+}
+
+#btn3:hover {
+    background-color: #77090e;
+}
+
+footer {
+    color: white;
+    max-width: 100vw;
+    margin: auto;
+    padding: 60px;
+    background-color: black;
+}
+
+.questions {
+    padding: 34px 50px;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 14px 50px;
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 25px;
+    }
+
+    .navbar {
+        display: flex;
+    }
+
+    .navbar img {
+        width: 150px;
+        margin: 20px 20px 0px 20px;
+    }
+
+    #lang {
+        font-size: 10px;
+        width: 100px;
+        margin: 25px 10px 0px 55px;
+    }
+
+    .heading h1 {
+        font-size: 35px;
+        padding: 0px 30px;
+    }
+
+    .heading p {
+        font-size: 25px;
+        padding: 0px 30px;
+    }
+
+    #email {
+        margin-left: 52px;
+    }
+
+    #btn2 {
+        margin-left: 114px;
+        margin-top: 13px;
+    }
+
+    .tv {
+        display: block;
+        justify-items: center;
+        text-align: center;
+    }
+
+    .right video {
+        margin-top: 526px;
+        left: 13px;
+    }
+
+    .left h1 {
+        margin: 0px;
+        text-align: center;
+        font-size: 35px;
+        padding-top: 50px;
+    }
+
+    .left p {
+        text-align: center;
+        font-size: 25px;
+        padding: 10px;
+    }
+
+    .right img {
+        position: relative;
+        right: 0px;
+        z-index: 10;
+        width: 80vw;
+
+    }
+
+    .right video {
+        position: absolute;
+        width: 60vw;
+        margin-top: 170px;
+        left: 87px;
+    }
+
+    .phone {
+        display: block;
+        background-color: black;
+        color: white;
+    }
+
+    .left1 img {
+        position: relative;
+        top: 192px;
+        right: 183px;
+
+    }
+
+    .icon3 img {
+        position: relative;
+
+        top: -69px;
+
+    }
+
+    .box1 {
+        position: relative;
+        padding: 10px;
+        top: 23px;
+        right: 181px;
+    }
+
+    .right1 h1 {
+        text-align: center;
+        padding: 0px 100px 0px 100px;
+        font-weight: 900;
+        font-size: 35px;
+        position: relative;
+        bottom: 640px;
+
+    }
+
+    .right1 p {
+        font-size: 25px;
+        position: relative;
+        bottom: 640px;
+        text-align: center;
+        padding: 0px 20px 0px 20px;
+
+    }
+
+    .movie2 {
+        display: block;
+    }
+
+    .para h1 {
+        font-weight: 900;
+        font-size: 35px;
+    }
+
+    .para p {
+        font-size: 30px;
+        text-align: center;
+        padding-left: 10px;
+    }
+
+    .laptop img {
+        position: relative;
+        right: 50px;
+        z-index: 20;
+        top: 100px;
+        width: 100vw;
+        margin-left: 45px;
+    }
+
+    .laptop video {
+        position: relative;
+        bottom: 240px;
+        left: 90px;
+        width: 60vw;
+    }
+
+    .kids {
+        display: block;
+    }
+
+    .kids img {
+        position: relative;
+        top: 200px;
+        width: 100vw;
+    }
+
+    .kids h1 {
+        bottom: 350px;
+        position: relative;
+        text-align: center;
+        padding: 20px;
+        font-size: 35px;
+    }
+
+    .kids p {
+        bottom: 350px;
+        position: relative;
+        text-align: center;
+        font-size: 25px;
+        padding: 0;
+    }
+
+
+    .rr p {
+        padding: 40px;
+    }
+
+    #email1 {
+        margin: 0px 0px 10px 60px;
+
+    }
+
+    #btn3 {
+        margin: 0px 0px 20px 120px;
+    }
+
+    footer {
+        padding: 10px;
+    }
+
+
+    .footer-item {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-left: 20px;
+    }
+}
